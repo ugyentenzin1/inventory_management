@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'rsm-header',
+  selector: 'inv-header',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './header.component.html',

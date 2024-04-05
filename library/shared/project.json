@@ -2,7 +2,7 @@
   "name": "shared",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "library/shared/src",
-  "prefix": "rsm",
+  "prefix": "inv",
   "projectType": "library",
   "tags": [],
   "targets": {
