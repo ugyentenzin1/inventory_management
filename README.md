@@ -60,3 +60,7 @@ It will show tasks that you can run with Nx.
 - [Join the community](https://nx.dev/community)
 - [Subscribe to the Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
 - [Follow us on Twitter](https://twitter.com/nxdevtools)
+
+## Branching Diagram 
+
+-[https://app.diagrams.net/#Wb!iBn_BbGUoEu60Dsv7gIrRSmnljkfpRBFpCOAApev47wgKvIFDy8bRpwPkagmvAJO%2F01JXTAGUJ3RRPJ5S3ACVF3HVDWS7YYFK3Z#%7B%22pageId%22%3A%22sIhezZL-htK7yhjxGYLS%22%7D]
