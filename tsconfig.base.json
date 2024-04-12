@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@inventory-management/features": ["library/features/src/index.ts"],
       "@inventory-management/shared": ["library/shared/src/index.ts"]
     }
   },
