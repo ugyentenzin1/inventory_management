@@ -17,7 +17,10 @@
         "tsConfig": "apps/inv/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": ["apps/inv/src/favicon.ico", "apps/inv/src/assets"],
-        "styles": ["apps/inv/src/styles.scss"],
+        "styles": [
+          "apps/inv/src/styles.scss",
+          "node_modules/primeng/resources/primeng.min.css"
+        ],
         "scripts": []
       },
       "configurations": {

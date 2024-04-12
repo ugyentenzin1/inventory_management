@@ -1,0 +1,165 @@
+@use 'styles/font' as *;
+
+:root {
+  --red-value: 0;
+  --green-value: 102;
+  --blue-value: 178;
+
+  --primary-rgb: var(--red-value), var(--green-value), var(--blue-value);
+
+  --white-color: #FFFFFF;
+  --white-rgb: 255, 255, 255;
+  --white-60: rgba(var(--white-color), 0.6);
+  --surface-100: #F5F5F5;
+  --surface-300: #E0E0E0;
+  --surface-400: #BDBDBD;
+  --surface-600: #757575;
+  --black-100: 0,0,0;
+  --pink-red: #B00020;
+  --bright-gray: #ECECEC;
+  --alto-gray: #DCDCDC;
+  --cod-gray: #191919;
+  --chinese-white: #E0E0E1;
+  --color-shark: #212529;
+  --color-shady-lady: #9E9D9E;
+  --color-french-pass: #B3E5FC;
+  --color-endeavour: #01579B;
+  --color-surf-crest: #C8E6C9;
+  --color-dark-green: #1B5E20;
+  --color_buttermilk: #FFECB3;
+  --color-dark-gold: #7F6003;
+  --color-pastel-pink: #FFCDD2;
+  --color-fire-brick: #B71C1C;
+  --color-gray-90: #E5E5E5;
+  --color-athens-gray: #F8F9FA;
+  --color-white-smoke: #F6F6F6;
+  --color-light-gray: #C1C1C1;
+  --persian-red: #D32F2F;
+  --persian-red-variant: 211, 47, 47;
+
+  --color_lola: #D9D8D9;
+  --dark-charcoal: #323232;
+  --platinum: #E4E4E4;
+  --secondary-color: #FF4081;
+  --secondary-rgb: 255, 64, 129;
+
+  --blue-500: #2196F3;
+  --info-blue: 33, 150, 243;
+
+  --green-500: #689F38;
+  --green: 104, 159, 56;
+
+  --yellow-500: #FBC02D;
+  --lightning-yellow: 251, 192, 45;
+
+  --purple-500: #9C27B0;
+  --purple-varient: 156, 39, 176;
+
+  --color-cloud: #1E2756;
+  --color-chambray: #324191;
+  --color-dove-gray: #5A5A5A;
+  --color-porcelain: #F2F2F2;
+  --carbon-gray: #616161;
+
+  --maskbg: rgba(0, 0, 0, 0.32);
+}
+
+:root {
+  --font-regular: Assistant-Regular;
+  --font-medium: Assistant-Medium;
+  --font-bold: Assistant-Bold;
+  --font-light: Assistant-Light;
+}
+
+$black: rgba(var(--black-100), 1);
+$color-carmine-12: rgba(var(--color-carmine), .12);
+$carbon-gray-90: rgba(#616161, 0.9);
+
+$color-cloud-12: rgba(var(--color-cloud), .12);
+$color-chambray-12: rgba(var(--color-chambray), 0.12);
+$color-dove-gray-90: rgba(var(--color-dove-gray), 0.9);
+
+$primary: rgba(var(--primary-rgb), 1);
+$primary-4: rgba(var(--primary-rgb), 0.04);
+$primary-8: rgba(var(--primary-rgb), 0.08);
+$primary-12: rgba(var(--primary-rgb), 0.12);
+$primary-16: rgba(var(--primary-rgb), 0.16);
+$primary-20: rgba(var(--primary-rgb), 0.20);
+$primary-24: rgba(var(--primary-rgb), 0.24);
+$primary-32: rgba(var(--primary-rgb), 0.32);
+$primary-50: rgba(var(--primary-rgb), 0.5);
+$primary-68: rgba(var(--primary-rgb), 0.68);
+$primary-76: rgba(var(--primary-rgb), 0.76);
+$primary-92: rgba(var(--primary-rgb), 0.92);
+
+$secondary: rgba(var(--secondary-rgb), 1);
+$secondary-20: rgba(var(--secondary-rgb), 0.2);
+$secondary-12: rgba(var(--secondary-rgb), 0.12);
+$secondary-4: rgba(var(--secondary-rgb), 0.04);
+$secondary-16: rgba(var(--secondary-rgb), 0.16);
+$secondary-68: rgba(var(--secondary-rgb), 0.68);
+$secondary-76: rgba(var(--secondary-rgb), 0.76);
+$secondary-92: rgba(var(--secondary-rgb), 0.92);
+
+$info-blue-92: rgba(var(--info-blue), 0.92);
+$info-blue-76: rgba(var(--info-blue), 0.76);
+$info-blue-68: rgba(var(--info-blue), 0.68);
+$info-blue-4: rgba(var(--info-blue), 0.04);
+$info-blue-16: rgba(var(--info-blue), 0.16);
+$info-blue-12: rgba(var(--info-blue), 0.12);
+
+$pink-red: var(--pink-red);
+$pink-red-4: rgba(var(--pink-red), .04);
+$pink-red-12: rgba(var(--pink-red), .12);
+
+$bright-gray: var(--bright-gray);
+
+$purple: rgba(var(--purple-varient), 1);
+$purple-92: rgba(var(--purple-varient), 0.92);
+$purple-76: rgba(var(--purple-varient), 0.76);
+$purple-68: rgba(var(--purple-varient), 0.68);
+$purple-4: rgba(var(--purple-varient), 0.04);
+$purple-12: rgba(var(--purple-varient), 0.12);
+$purple-16: rgba(var(--purple-varient), 0.16);
+
+$green: rgba(var(--green), 1);
+$green-4: rgba(var(--green), .04);
+$green-12: rgba(var(--green), .12);
+$green-16: rgba(var(--green), .16);
+$green-68: rgba(var(--green), .68);
+$green-76: rgba(var(--green), .76);
+$green-92: rgba(var(--green), .92);
+
+$lightning-yellow: rgba(var(--lightning-yellow), 1);
+$lightning-yellow-92: rgba(var(--lightning-yellow), .92);
+$lightning-yellow-76: rgba(var(--lightning-yellow), .76);
+$lightning-yellow-68: rgba(var(--lightning-yellow), .68);
+$lightning-yellow-4: rgba(var(--lightning-yellow), .04);
+$lightning-yellow-16: rgba(var(--lightning-yellow), .16);
+$lightning-yellow-12: rgba(var(--lightning-yellow), .12);
+
+$persian-red: var(--persian-red);
+$persian-red-68: rgba(var(--persian-red-variant), .68);
+$persian-red-76: rgba(var(--persian-red-variant), .76);
+$persian-red-92: rgba(var(--persian-red-variant), .92);
+$persian-red-12: rgba(var(--persian-red-variant), .12);
+$persian-red-4: rgba(var(--persian-red-variant), .04);
+$persian-red-8: rgba(var(--persian-red-variant), .08);
+$persian-red-16: rgba(var(--persian-red-variant), .16);
+
+$black-87: rgba(var(--black-100), .87);
+$black-32: rgba(var(--black-100), .32);
+$black-20: rgba(var(--black-100), .2);
+$black-24: rgba(var(--black-100), .24);
+$black-2: rgba(var(--black-100), .02);
+$black-3: rgba(var(--black-100), .03);
+$black-4: rgba(var(--black-100), .04);
+$black-8: rgba(var(--black-100), .08);
+$black-12: rgba(var(--black-100), .12);
+$black-14: rgba(var(--black-100), .14);
+$black-16: rgba(var(--black-100), .16);
+$black-38: rgba(var(--black-100), .38);
+$black-50: rgba(var(--black-100), .50);
+$black-60: rgba(var(--black-100), .60);
+$black-70: rgba(var(--black-100), .70);
+$black-90: rgba(var(--black-100), .90);
