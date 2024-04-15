@@ -21,6 +21,9 @@
           "apps/inv/src/styles.scss",
           "node_modules/primeng/resources/primeng.min.css"
         ],
+        "stylePreprocessorOptions": {
+          "includePaths": ["./node_modules", "apps/inv/src/assets"]
+        },
         "scripts": []
       },
       "configurations": {
